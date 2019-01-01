@@ -27,5 +27,6 @@ mysql -u root <<-EOF
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$MYSQL_ROOT_PASSWORD';
 FLUSH PRIVILEGES;
 EOF
+//Need to check what installed sucessfully and what has not
 clear
 echo 'Installed'
